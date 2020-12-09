@@ -3,6 +3,8 @@ scripts and such for running dask on the lpc condor cluster
 
 ## To setup
 ```bash
+ssh -l <username> cmslpc-sl7.fnal.gov
+# set directory to where you want to setup your work area
 git clone https://github.com/lgray/lpc_dask.git
 ${PWD}/lpc_dask/create_dask_environment.sh
 source ${PWD}/lpc_dask/env.sh
