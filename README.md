@@ -22,3 +22,8 @@ python -i /path/to/lpc_dask/simple_example.py
 ```bash
 source /path/to/lpc_dask/env.sh
 ```
+
+## to leave environment
+```bast
+deactivate
+```
