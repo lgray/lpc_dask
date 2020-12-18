@@ -18,7 +18,7 @@ ln -sf ${lcgprefix}/pyxrootd ${LPC_DASK_NAME}/lib/python3.7/site-packages/pyxroo
 ln -sf ${lcgprefix}/XRootD ${LPC_DASK_NAME}/lib/python3.7/site-packages/XRootD
 
 pip install --upgrade pip wheel --no-cache-dir
-pip install dask[dataframe] distributed dask-jobqueue coffea[dask] --no-cache-dir
+pip install dask[dataframe] distributed dask-jobqueue coffea[dask]==0.6.47 --no-cache-dir
 
 deactivate
 
